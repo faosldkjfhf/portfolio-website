@@ -1,0 +1,17 @@
+[
+    {
+        "name": "Home",
+        "link": "/home",
+        "_id": 123
+    },
+    {
+        "name": "Photos",
+        "link": "/photos",
+        "_id": 234
+    },
+    {
+        "name": "About Me",
+        "link": "/about-me",
+        "_id": 345
+    }
+]
