@@ -1,6 +1,6 @@
 import items from "./items.json";
 import NavBarComponent from "./NavBarComponent";
-import { Link } from 'react-router-dom';
+import { Link } from "react-router-dom";
 
 const NavBar = (
     {
@@ -10,7 +10,7 @@ const NavBar = (
     return (
         <nav className="navbar navbar-expand">
             <div className="navbar-nav">
-                <Link className="font-bold navbar-brand" to="/home">Kevin Liu</Link>
+                <Link to="/home" className="font-bold navbar-brand">Kevin Liu</Link>
                 {items.map((item) => (
                     <NavBarComponent item={item} current={current} />
                 ))}
