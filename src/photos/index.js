@@ -1,7 +1,12 @@
+import React, { useEffect } from "react";
+
 const Photos = () => {
+    useEffect(() => {
+        document.title = "Photos"
+    }, []);
     return (
         <div>
-            <h1>Photos</h1>
+            <img src="./images/Portraits_0021.jpg" width="50%" className="img-fluid" />
         </div>
     )
 }

@@ -1,0 +1,12 @@
+html {
+    scroll-behavior: smooth;
+}
+
+a:hover {
+    color: #9FA6B2 !important;
+}
+
+.no-text-decor {
+    text-decoration: none;
+    color: black;
+}

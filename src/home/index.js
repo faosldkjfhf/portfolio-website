@@ -1,7 +1,13 @@
+import "./index.css";
+import React, { useEffect } from 'react';
+
 const Home = () => {
+    useEffect(() => {
+        document.title = "Home"
+    }, []);
     return (
         <div>
-            <h1>Welcome to my website!</h1>
+            Hi, I'm Kevin Liu.
         </div>
     )
 }
