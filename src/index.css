@@ -7,4 +7,25 @@
         @apply dark:bg-gray-700;
         font-family: "Poppins", sans-serif;
     }
+
+    .list-group-item {
+        @apply flex-shrink-0;
+        @apply font-bold;
+        @apply md:w-test;
+        @apply text-lg;
+        @apply px-2;
+        @apply py-2;
+        @apply text-gray-400;
+        @apply mt-2;
+        @apply mb-2;
+        @apply rounded-lg;
+        @apply bg-gray-800;
+        @apply hover:scale-110;
+    }
+}
+
+@layer utilities {
+    .w-test {
+        width: 32%;
+    }
 }

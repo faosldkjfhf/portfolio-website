@@ -2,6 +2,8 @@ import { Link } from "react-router-dom";
 import Footer from "../footer";
 import AboutMe from "../about-me";
 import Projects from "../projects";
+import WorkExperience from "../work-experience";
+import Interests from "../interests";
 
 function Home() {
     return (
@@ -20,10 +22,12 @@ function Home() {
                     <li>
                         <Projects />
                     </li>
-                    <li className="text-white text-6xl font-bold">
-                        Previous Experiences
+                    <li>
+                        <WorkExperience />
                     </li>
-                    <li className="text-white text-6xl font-bold">Interests</li>
+                    <li>
+                        <Interests />
+                    </li>
                 </ul>
             </div>
             <div className="fixed bottom-0">
