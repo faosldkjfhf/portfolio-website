@@ -5,4 +5,8 @@ import tailwindcss from "tailwindcss";
 // https://vitejs.dev/config/
 export default defineConfig({
     plugins: [react(), tailwindcss()],
+    publicDir: "public",
+    build: {
+        outDir: "../dist",
+    },
 });
