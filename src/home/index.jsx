@@ -4,15 +4,15 @@ import AboutMe from "../about-me";
 import Projects from "../projects";
 import WorkExperience from "../work-experience";
 import Interests from "../interests";
+import NavBar from "../nav-bar";
 
 function Home() {
     return (
-        <div className="flex flex-col">
+        <div className="flex flex-col flex-1">
+            <NavBar />
             <div className="text-white text-9xl font-bold flex-auto">
-                <div>Hello!</div>
-                <div className="text-white text-9xl font-bold">
-                    I'm Kevin Liu
-                </div>
+                <div className="overflow-hidden">Hello!</div>
+                <div className="overflow-hidden">I'm Kevin Liu</div>
             </div>
             <div className="flex-auto text-center">
                 <ul className="container mx-auto">

@@ -8,6 +8,35 @@
         font-family: "Poppins", sans-serif;
     }
 
+    .hiddenLeft {
+        opacity: 0;
+        filter: blur(5px);
+        transition: all 1s;
+        transform: translateX(-100%);
+    }
+
+    .show {
+        opacity: 1;
+        filter: blur(0);
+        transform: translateX(0);
+    }
+
+    .nav-link {
+        @apply py-2;
+        @apply pl-4;
+        @apply pr-4;
+        @apply rounded;
+        @apply hover:bg-gray-100 dark:text-white dark:hover:bg-gray-700 dark:hover:text-white text-center;
+    }
+
+    .active {
+        @apply py-2;
+        @apply pl-4;
+        @apply pr-4;
+        @apply rounded;
+        @apply dark:text-white bg-gray-700 dark:hover:text-white text-center;
+    }
+
     .list-group-item {
         @apply flex-shrink-0;
         @apply font-bold;
