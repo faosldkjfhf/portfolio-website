@@ -5,6 +5,7 @@ import Projects from "../projects";
 import WorkExperience from "../work-experience";
 import Interests from "../interests";
 import NavBar from "../nav-bar";
+import ContactCard from "../contact-me";
 
 function Home() {
     return (
@@ -14,21 +15,12 @@ function Home() {
                 <div className="overflow-hidden">Hello!</div>
                 <div className="overflow-hidden">I'm Kevin Liu</div>
             </div>
-            <div className="flex-auto text-center">
-                <ul className="container mx-auto">
-                    <li>
-                        <AboutMe />
-                    </li>
-                    <li>
-                        <Projects />
-                    </li>
-                    <li>
-                        <WorkExperience />
-                    </li>
-                    <li>
-                        <Interests />
-                    </li>
-                </ul>
+            <div className="flex-auto text-center container mx-auto">
+                <AboutMe />
+                <WorkExperience />
+                <Projects />
+                <Interests />
+                <ContactCard />
             </div>
             <div className="fixed bottom-0">
                 <Footer />

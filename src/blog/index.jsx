@@ -4,7 +4,9 @@ function Blog() {
     return (
         <>
             <NavBar />
-            <div className="text-white font-bold">Blog</div>
+            <div className="text-white text-9xl overflow-hidden font-bold">
+                Blog
+            </div>
         </>
     );
 }

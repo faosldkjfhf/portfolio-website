@@ -11,8 +11,14 @@
     .hiddenLeft {
         opacity: 0;
         filter: blur(5px);
-        transition: all 1s;
         transform: translateX(-100%);
+    }
+
+    .hiddenRight {
+        opacity: 0;
+        filter: blur(5px);
+        transition: all 1s;
+        transform: translateX(100%);
     }
 
     .show {
@@ -38,7 +44,6 @@
     }
 
     .list-group-item {
-        @apply flex-shrink-0;
         @apply font-bold;
         @apply md:w-test;
         @apply text-lg;
@@ -49,7 +54,8 @@
         @apply mb-2;
         @apply rounded-lg;
         @apply bg-gray-800;
-        @apply hover:scale-110;
+        @apply hover:scale-105;
+        transition: all 1s;
     }
 }
 
