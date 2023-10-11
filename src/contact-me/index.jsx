@@ -11,7 +11,7 @@ function ContactCard() {
                     through any of the other links below as well!
                 </div>
                 <div className="text-xl">
-                    <ul className="list-disc list-inside">
+                    <ul className="">
                         <li className="list-item">
                             <Link to="https://www.linkedin.com/in/kliu0932">
                                 <i className="fa-brands fa-linkedin"></i> Kevin
