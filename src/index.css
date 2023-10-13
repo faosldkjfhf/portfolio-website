@@ -3,64 +3,64 @@
 @tailwind utilities;
 
 @layer base {
-    html {
-        @apply dark:bg-slate-800;
-        font-family: "Poppins", sans-serif;
-    }
+  html {
+    @apply dark:bg-slate-800;
+    font-family: "Poppins", sans-serif;
+  }
 
-    .hiddenLeft {
-        opacity: 0;
-        filter: blur(5px);
-        transform: translateX(-100%);
-    }
+  .hiddenLeft {
+    opacity: 0;
+    filter: blur(5px);
+    transform: translateX(-100%);
+  }
 
-    .hiddenRight {
-        opacity: 0;
-        filter: blur(5px);
-        transition: all 1s;
-        transform: translateX(100%);
-    }
+  .hiddenRight {
+    opacity: 0;
+    filter: blur(5px);
+    transition: all 1s;
+    transform: translateX(100%);
+  }
 
-    .show {
-        opacity: 1;
-        filter: blur(0);
-        transform: translateX(0);
-    }
+  .show {
+    opacity: 1;
+    filter: blur(0);
+    transform: translateX(0);
+  }
 
-    .nav-link {
-        @apply py-2;
-        @apply pl-4;
-        @apply pr-4;
-        @apply rounded;
-        @apply hover:bg-gray-100 dark:text-white dark:hover:bg-gray-700 dark:hover:text-white text-center;
-    }
+  .nav-link {
+    @apply py-2;
+    @apply pl-4;
+    @apply pr-4;
+    @apply rounded;
+    @apply hover:bg-gray-100 dark:text-white dark:hover:bg-gray-700 dark:hover:text-white text-center;
+  }
 
-    .active {
-        @apply py-2;
-        @apply pl-4;
-        @apply pr-4;
-        @apply rounded;
-        @apply dark:text-white bg-gray-700 dark:hover:text-white text-center;
-    }
+  .active {
+    @apply py-2;
+    @apply pl-4;
+    @apply pr-4;
+    @apply rounded;
+    @apply dark:text-white bg-gray-700 dark:hover:text-white text-center;
+  }
 
-    .list-group-item {
-        @apply font-bold;
-        @apply md:w-test;
-        @apply text-lg;
-        @apply px-2;
-        @apply py-2;
-        @apply text-gray-400;
-        @apply mt-2;
-        @apply mb-2;
-        @apply rounded-lg;
-        @apply bg-gray-900;
-        @apply hover:scale-105;
-        transition: all 1s;
-    }
+  .list-group-item {
+    @apply font-bold;
+    @apply md:w-test;
+    @apply text-lg;
+    @apply px-2;
+    @apply py-2;
+    @apply text-gray-400;
+    @apply mt-2;
+    @apply mb-2;
+    @apply rounded-lg;
+    @apply bg-gray-900;
+    @apply hover:scale-105;
+    transition: all 1s;
+  }
 }
 
 @layer utilities {
-    .w-test {
-        width: 50%;
-    }
+  .w-test {
+    width: 50%;
+  }
 }
