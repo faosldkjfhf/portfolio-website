@@ -4,7 +4,7 @@
 
 @layer base {
   html {
-    @apply dark:bg-slate-800;
+    @apply bg-slate-800;
     font-family: "Poppins", sans-serif;
   }
 
@@ -32,7 +32,7 @@
     @apply pl-4;
     @apply pr-4;
     @apply rounded;
-    @apply hover:bg-gray-100 dark:text-white dark:hover:bg-gray-700 dark:hover:text-white text-center;
+    @apply text-white hover:bg-gray-700 hover:text-white text-center;
   }
 
   .active {
@@ -40,7 +40,7 @@
     @apply pl-4;
     @apply pr-4;
     @apply rounded;
-    @apply dark:text-white bg-gray-700 dark:hover:text-white text-center;
+    @apply text-white bg-gray-700 hover:text-white text-center;
   }
 
   .list-group-item {
